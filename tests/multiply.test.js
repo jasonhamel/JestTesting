@@ -1,4 +1,4 @@
-const multiply = require("./multiply");
+const multiply = require("../math_classes/multiply");
 
 test("Test the zero case by multiplying zero by itself", () => {
   expect(multiply(0, 0)).toBe(0);

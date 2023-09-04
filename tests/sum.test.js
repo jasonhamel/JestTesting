@@ -1,4 +1,4 @@
-const sum = require("./sum");
+const sum = require("../math_classes/sum");
 
 test("Tests the zero case of adding zeros together to make zero", () => {
   expect(sum(0, 0)).toBe(0);

@@ -1,4 +1,4 @@
-const subtract = require("./subtract");
+const subtract = require("../math_classes/subtract");
 
 test("Tests the zero case by subtracting zero from itself for 0", () => {
   expect(subtract(0, 0)).toBe(0);
